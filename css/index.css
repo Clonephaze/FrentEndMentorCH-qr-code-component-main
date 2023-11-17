@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    font-size: 15px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    max-height: 440px;
+    height: 100vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, .15);
+    margin: auto auto;
+    background-color: #ffffff;
+}
+
+.card-content {
+    text-align: center;
+    max-width: 90%;
+    max-height: 95%;
+}
+
+#QrCode-Title {
+    font-size: large;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+#QrCode-Body {
+    font-size: small;
+    font-family: 'outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 15px;
+    max-height: 100%;
+    max-width: 100%;
+}
